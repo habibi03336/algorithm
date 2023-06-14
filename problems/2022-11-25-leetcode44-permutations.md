@@ -22,7 +22,7 @@ tags:
 2. 유향 그래프 문제로 볼 수 있다. 모든 노드가 양방향으로 이어져있을 때, 각 노드를 한 번 씩 거쳐 그래프 전체를 탐색하는 모든 경로 (모든 해밀턴 경로)를 반환하는 문제라고 할 수 있다. dfs와 백트레킹을 활용하여 풀이한다.
 
 <div style="text-align: center;">
-    <img src="/assets/img/leetcode-46.jpeg" alt="leetcode-46"/>
+    <img src="https://raw.githubusercontent.com/habibi03336/algorithm/master/assets/img/leetcode-46.jpeg" alt="leetcode-46"/>
 </div>
 
 2. 재귀함수 한 번에 O(N)의 시간복잡도를 가진다. 재귀함수는 총 N^N번(N \* (N-1) \* (N-2) \* ... \* 1) 호출된다. 따라서 총 시간 복잡도는 O(N^N)이다.

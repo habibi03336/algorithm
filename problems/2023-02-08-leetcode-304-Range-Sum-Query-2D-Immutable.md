@@ -19,7 +19,7 @@ tags:
 1.
 
 <div style="text-align: center;">
-    <img src="/assets/img/leetcode-304.jpeg" alt="leetcode-304" maxWidth="400"/>
+    <img src="https://raw.githubusercontent.com/habibi03336/algorithm/master/assets/img/leetcode-304.jpeg" alt="leetcode-304" maxWidth="400"/>
 </div>
 
 - 이와 같은 개념으로 미리 구해둔 (0,0)에서 (i,j)까지의 총합을 이용해, O(1)으로 범위의 값을 구할 수 있다.

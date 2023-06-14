@@ -13,20 +13,21 @@ tags:
 # 문제
 
 <div style="text-align: center;">
-    <img src="/assets/img/exercise_4_12.jpeg" alt="exercise_4_12"/>
+    <img src="https://raw.githubusercontent.com/habibi03336/algorithm/master/assets/img/exercise_4_12.jpeg" alt="exercise_4_12"/>
 </div>
 
 # 테스트 케이스
+
 트리 배열 표현시 크기, 목표 값 k, 노드 값들 (null일 경우 -1)
 
 (사실 문제조건상 노드 값이 음수일수도 있어서 -1로 하면 안 됨)
 
-
-    1. 15 6 
+    1. 15 6
        10 5 -3 3 1 -1 11 3 -2 -1 2 -1 -1 -1 -1
        expected: 3
 
 # 코드
+
 ```java
 import java.io.IOException;
 import java.util.*;

@@ -20,7 +20,7 @@ tags:
 
 1. 크기 관계가 중요하다고 생각해서, 일단 정렬을 해주면 좋겠다고 생각했다.
 
-2. 애벌레 방식으로 양 쪽에서 경우에 맞도록 좁혀가며 가장 작은 절댓값을 구할 수 있다. 다음 번에 lo+가 더 작은 값을 내는지, hi-가 더 작은 값을 내는지 비교해서 더 작은 쪽으로 이동하도록 하면된다. 
+2. 애벌레 방식으로 양 쪽에서 경우에 맞도록 좁혀가며 가장 작은 절댓값을 구할 수 있다. 다음 번에 lo+가 더 작은 값을 내는지, hi-가 더 작은 값을 내는지 비교해서 더 작은 쪽으로 이동하도록 하면된다.
 
 3. 전체 시간복잡도는 O(N\*logN)을 기대할 수 있다.
 
@@ -30,10 +30,10 @@ lo요소, hi요소 모두 양수인 경우, hi가 - 하는 쪽으로만 움직�
 
 lo요소는 음수, hi요소는 양수일 때는 둘의 합이 음인 경우는 lo + 쪽으로, 둘의 합의 양인 경우에는 hi - 쪽으로 이동한다.
 
-헷갈리는 점이 있을 수 있다. 예를 들어 둘의 합이 음일 때 hi를 + 쪽으로 움직이는 것도 절댓값을 줄이는 방향이라고 여길 수 있다. 하지만 이는 이미  앞서서 고려된 절댓값이거나 최적화가 아닌 방식으로 움직이는 것이다.
+헷갈리는 점이 있을 수 있다. 예를 들어 둘의 합이 음일 때 hi를 + 쪽으로 움직이는 것도 절댓값을 줄이는 방향이라고 여길 수 있다. 하지만 이는 이미 앞서서 고려된 절댓값이거나 최적화가 아닌 방식으로 움직이는 것이다.
 
 <div style="text-align: center;">
-    <img src="/assets/img/codility-minAbsSumOfTwo.jpeg" alt="codility-minAbsSumOfTwo" width="500"/>
+    <img src="https://raw.githubusercontent.com/habibi03336/algorithm/master/assets/img/codility-minAbsSumOfTwo.jpeg" alt="codility-minAbsSumOfTwo" width="500"/>
 </div>
 
 # 시행착오

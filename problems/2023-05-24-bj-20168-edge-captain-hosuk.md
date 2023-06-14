@@ -12,9 +12,8 @@ tags:
 # [문제](https://www.acmicpc.net/problem/20168)
 
 <div style="text-align: center;">
-    <img src="/assets/img/bj_20168.jpeg" alt="bj_20168"/>
+    <img src="https://raw.githubusercontent.com/habibi03336/algorithm/master/assets/img/bj_20168.jpeg" alt="bj_20168"/>
 </div>
-
 
 # 코드
 

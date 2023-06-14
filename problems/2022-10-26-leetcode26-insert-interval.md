@@ -26,7 +26,7 @@ interval의 array에 따로 주어진 interval을 기존의 조건(overlap이 �
 
 - 생각만큼 간단하게 풀리지는 않았다. 경우의 수가 생각보다 다양했다. overlap이 되는 경우(4가지 경우) + overlap 되지 않고 들어가는 경우
 <div style="text-align: center;">
-    <img src="/assets/img/leet-overlap.jpeg" alt="overlap cases" width="400"/>
+    <img src="https://raw.githubusercontent.com/habibi03336/algorithm/master/assets/img/leet-overlap.jpeg" alt="overlap cases" width="400"/>
 </div>
 
 # 코드

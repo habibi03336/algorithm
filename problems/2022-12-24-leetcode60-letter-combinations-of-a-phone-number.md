@@ -20,7 +20,7 @@ tags:
 1. 유향 그래프 탐색 문제로 볼 수 있다. 각 숫자의 자리 수에 대해서 알파벳 노드가 있고, 다음 자리 수에 대응하는 알파벳 노드들 모두로 향하는 경로가 있는 그래프이다.
 
 <div style="text-align: center;">
-    <img src="/assets/img/leetcode-17.jpeg" alt="leetcode-17"/>
+    <img src="https://raw.githubusercontent.com/habibi03336/algorithm/master/assets/img/leetcode-17.jpeg" alt="leetcode-17"/>
 </div>
 
 ## 구현
